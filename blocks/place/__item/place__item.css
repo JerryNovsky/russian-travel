@@ -1,4 +1,4 @@
-.place__paragraph_item {
+.place__item {
     margin: 0;
     font-style: normal;
     font-weight: 400;
@@ -7,19 +7,19 @@
     color: #FFFFFF;
 }
 
-.place__paragraph_item:last-of-type {
+.place__item:last-of-type {
     padding-top: 25px;
 }
 
 @media screen and (max-width: 1023px) {
-    .place__paragraph_item {
+    .place__item {
         font-size: 16px;
         line-height: 163%;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .place__paragraph_item {
+    .place__item {
         width: 288px;
         margin: 0 auto 0 auto;
     }

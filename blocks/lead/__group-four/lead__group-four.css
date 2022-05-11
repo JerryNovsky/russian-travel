@@ -1,0 +1,28 @@
+.lead__group-four {
+    width: calc(100% - 46px);
+    background-image: url(../../../images/Group_4.svg);
+    background-size: contain;
+    margin: 90.21px auto 0 auto;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1279px) {
+    .lead__group-four {
+        width: calc(100% - 43px);
+        margin: 85.07px auto 0 auto;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .lead__group-four {
+        width: calc(100% - 36.5px);
+        margin: 70.41px auto 0 auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .lead__group-four {
+        width: calc(100% - 15.26px);
+        margin: 29.34px auto 0 auto;
+    }
+}

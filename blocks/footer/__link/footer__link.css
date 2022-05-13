@@ -6,10 +6,11 @@
     color: #FFFFFF;
     text-decoration: none;
     transition: opacity .8s;
+    margin-right: 18px;
 }
 
-.footer__link:nth-of-type(2n) {
-    margin: 0 18px;
+.footer__link:last-of-type {
+    margin: 0;
 }
 
 .footer__link:hover {

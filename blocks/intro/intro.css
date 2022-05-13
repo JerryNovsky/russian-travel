@@ -1,12 +1,12 @@
 .intro {
-    max-width: 690px;
-    align-self: flex-start;
-    padding: 92px 0 0 11.56%;
+    width: 984px;
+    margin: 0 auto;
+    padding-top: 92px;
 }
 
 @media screen and (max-width: 1279px) {
     .intro {
-        padding-left: 11.56%;
+        width: 928px;
     }
 }
 
@@ -14,8 +14,8 @@
     .intro {
         max-width: 720px;
         align-self: center;
-        padding: 0;
-        margin: 88px auto 0 auto;
+        padding-top: 88px;
+        margin: 0 auto;
     }
 }
 
@@ -23,7 +23,7 @@
     .intro {
         max-width: 288px;
         align-self: center;
-        padding: 0;
-        margin: 64px auto 0 auto;
+        padding-top: 64px;
+        margin: 0 auto;
     }
 }

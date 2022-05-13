@@ -1,21 +1,21 @@
-.header__lang-links {
+.header__lang-link_item {
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
     color: #FFF;
-    padding: 18px 0 6px 0;
+    text-decoration: underline;
+    list-style: none;
 }
 
-.header__lang-links:last-of-type {
+.header__lang-link_item:last-of-type {
     text-decoration: none;
     padding-left: 18px;
 }
 
 @media screen and (max-width: 767px) {
-    .header__lang-links {
+    .header__lang-link_item {
         font-size: 18px;
         line-height: 20px;
-        padding: 14px 0 8px 0;
     }
 }

@@ -11,7 +11,8 @@
 
 @media screen and (max-width: 767px) {
     .cover__title {
-        width: 288px;
+        /*Уменьшаю ширину блока для корректного переноса "на собаках" на новую строку*/
+        width: 250px;
         font-size: 32px;
         line-height: 35px;
     }

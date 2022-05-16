@@ -5,10 +5,11 @@
     font-size: 18px;
     line-height: 163%;
     color: #FFFFFF;
+    padding-top: 25px;
 }
 
 .place__item:last-of-type {
-    padding-top: 25px;
+    padding-top: 0px;
 }
 
 @media screen and (max-width: 1023px) {
